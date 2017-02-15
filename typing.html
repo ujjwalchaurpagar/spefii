@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Typing Input</title>
+
+	<!--bootstrap & css-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<!--javascript-->
+	
+</head>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">
+        <b>SPEFII</b>  (SPEAK TO FILL)</a>
+    </div>
+  </div>
+</nav>
+
+<body>
+
+<div class="container">
+<p><img src="images/men.png" class="logo"></p>
+<form  name="myform" method="post" action="info.php">
+  <div class="form-group">
+    <label for="Firstname">First Name :</label>
+    <input type="text" name="fname" class="form-control" id="Firstname" placeholder="Enter Your First Name" required="fname">
+  </div>
+  <div class="form-group">
+  	<label for="Middlename ">Middle Name :</label>
+  	<input type="text" name="mname" class="form-control" id="Middlename" placeholder="Enter Your Middle Name" required="mname">
+  </div>
+   <div class="form-group">
+  	<label for="Lastname ">Last Name :</label>
+  	<input type="text" name="lname" class="form-control" id="Lastname" placeholder="Enter Your Last Name" required="lname">
+  </div>
+   <div class="form-group">
+  	<label for="Dateofbirth">Date of Birth :</label>
+  	<input type="date" name="dob" class="form-control" id="Dateofbirth" placeholder="Enter Your Date of Birth" required="dob">
+  </div>
+   <div class="form-group">
+  	<label for="email">Email Address :</label>
+  	<input type="email" name="ead" class="form-control" id="email" placeholder="Enter Your Email Address" required="email">
+  </div>
+  <div class="form-group">
+  	<label for="address">Address :</label>
+  	<textarea name="ad" rows="3" cols="40" class="form-control" id="address" placeholder="Enter Your Address" required="ad"></textarea>
+  </div>
+  <div class="form-group">
+  	<label for="number">Mobile Number :</label>
+  	<input type="text" name="exp" class="form-control" pattern="[0-9]{10}" id="number" placeholder="Enter Your Mobile Number" title="number/max10" required>
+  </div>
+  <p>
+  <input type="submit" name="submit" id="submit">
+  <input type="reset" name="reset" id="reset">
+  </p>
+</form>
+</div>
+<footer class="footer"></footer>
+</body>
+</html>
