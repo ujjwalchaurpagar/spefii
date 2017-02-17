@@ -1,0 +1,15 @@
+*SETUP FOR XAMPP =>
+======================
+1) Install xammp software from the  website: https://www.apachefriends.org/index.html.
+
+2)After installing the software the xampp folder created in c: drive autmatically (drive = where you install the software).
+
+3)Open the xammp folder ==> go to the htdocs ==> paste the folder in the htdocs
+
+*HOW TO OPEN THE PROJECT =>
+===========================
+1) Open the Xampp application ==> sart apache and mysql and minimize it.
+
+2) GO TO THE htdocs ==> Open the project folder ==> open index.html  
+
+3) After Opening the index.html (file:///C:/xampp/htdocs/banti/main%20prooject/index.html) ==> rename (file:///C:/xampp/htdocs) to localhost ==> hit "ENTER".

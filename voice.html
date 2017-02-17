@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Voice Input</title>
+
+	<!--bootstrap & css-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/voice.css">
+	<!--javascript-->
+	<script type="text/javascript" src="script/script.js"></script>
+</head>
+
+<!-- header -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">
+        <b>SPEFII</b>  (SPEAK TO FILL)</a>
+    </div>
+  </div>
+</nav>
+
+<body>
+<div class="container">
+<p><img src="images/mic.png" class="logo" height="200px" width="200px"></p>
+
+<!-- form -->
+<form method="post" name="myform" method="post" action="info.php">
+  <div class="form-group">
+    <label for="Firstname">First Name :</label>
+    <input type="text" x-webkit-form-group name="fname" class="form-control" id="fname" placeholder="Enter Your First Name" required="fname">
+  <img src="images/mic2.png" onclick="ss1()">
+  </div>
+  <div class="form-group">
+  	<label for="Middlename ">Middle Name :</label>
+  	<input type="text" x-webkit-form-group name="mname" onclick="ss2()" class="form-control" id="mname" placeholder="Enter Your Middle Name" required="mname">
+    <img src="images/mic2.png" onclick="ss2()">
+  </div>
+   <div class="form-group">
+  	<label for="Lastname ">Last Name :</label>
+  	<input type="text" x-webkit-form-group name="lname" onclick="ss3()" class="form-control" id="lname" placeholder="Enter Your Last Name" required="lname">
+    <img src="images/mic2.png" onclick="ss3()">
+  </div>
+   <div class="form-group">
+  	<label for="Dateofbirth">Date of Birth :</label>
+  	<input type="text" x-webkit-form-group name="dob" onclick="ss4()" class="form-control" id="dob" placeholder="Enter Your Date of Birth" required="dob">
+    <img src="images/mic2.png" onclick="ss4()">
+  </div>
+   <div class="form-group">
+  	<label for="email">Email Address :</label>
+  	<input type="email" x-webkit-form-group name="ead" onclick="ss5()" class="form-control" id="ead" placeholder="Enter Your Email Address" required="email">
+    <img src="images/mic2.png" onclick="ss5()">
+  </div>
+  <div class="form-group">
+  	<label for="address">Address :</label>
+  	<textarea name="ad" rows="3" cols="40" x-webkit-form-group onclick="ss6()" class="form-control" id="ad" placeholder="Enter Your Address" required="ad"></textarea>
+    <img src="images/mic2.png" onclick="ss6()">
+  </div>
+  <div class="form-group">
+  	<label for="number">Mobile Number :</label>
+  	<input type="text" x-webkit-form-group name="exp" onclick="ss7()" class="form-control" pattern="[0-9]{10}" id="no" placeholder="Enter Your Mobile Number" title="number/max10" required>
+    <img src="images/mic2.png" onclick="ss7()">
+  </div>
+  <p>
+  <input type="submit" name="submit" id="submit">
+  <input type="reset" name="reset" id="reset">
+  </p>
+</form>
+</div>
+<footer class="footer"></footer>
+</body>
+</html>
